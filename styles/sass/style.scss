@@ -3,31 +3,31 @@ $default-dark-color: #597275;
 $active-color: #e4551d;
 $main-content-background: #f6f6f6;
 $main-text-color: #bcbbbb;
-$content-spliter: #d5d5d5;
+$content-splitter: #d5d5d5;
 
 @font-face {
   font-family: 'Source Sans Pro Light';
-  src: url('/../../fonts/SourceSansPro-Light.ttf');
+  src: url('../../fonts/SourceSansPro-Light.ttf');
 }
 @font-face {
   font-family: 'Source Sans Pro Regular';
-  src: url('/../../fonts/SourceSansPro-Regular.ttf');
+  src: url('../../fonts/SourceSansPro-Regular.ttf');
 }
 @font-face {
   font-family: 'Source Sans Pro Bold';
-  src: url('/../../fonts/SourceSansPro-Bold.ttf');
+  src: url('../../fonts/SourceSansPro-Bold.ttf');
 }
 @font-face {
   font-family: 'Source Sans Pro Black';
-  src: url('/../../fonts/SourceSansPro-Black.ttf');
+  src: url('../../fonts/SourceSansPro-Black.ttf');
 }
 @font-face {
   font-family: 'PT Sans Bold';
-  src: url('/../../fonts/PT_Sans-Web-Bold.ttf');
+  src: url('../../fonts/PT_Sans-Web-Bold.ttf');
 }
 @font-face {
   font-family: 'Lato Regular';
-  src: url('/../../fonts/Lato-Regular.ttf');
+  src: url('../../fonts/Lato-Regular.ttf');
 }
 
 body {
@@ -153,11 +153,11 @@ header {
     float: left;
     width: 24%;
     &:nth-child(2) {
-      border-left: 1px solid $content-spliter;
-      border-right: 1px solid $content-spliter;
+      border-left: 1px solid $content-splitter;
+      border-right: 1px solid $content-splitter;
     }
     &:nth-child(3) {
-      border-right: 1px solid $content-spliter;
+      border-right: 1px solid $content-splitter;
     }
     i {
       color: $active-color;
@@ -199,7 +199,7 @@ header {
   justify-content: center;
   margin: 20px auto 30px;
   &:after, &:before {
-    background: $content-spliter;
+    background: $content-splitter;
     height: 1px;
     flex: 1;
     content: '';

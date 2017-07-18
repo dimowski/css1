@@ -169,6 +169,7 @@ header {
   justify-content: center;
   margin: 20px auto 30px; }
   .hr-line:after, .hr-line:before {
+    display: block;
     background: #d5d5d5;
     height: 1px;
     flex: 1;

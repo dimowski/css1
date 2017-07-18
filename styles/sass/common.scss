@@ -1,0 +1,34 @@
+//================== COMMON STYLES =================
+body {
+  max-width: 1920px;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.active {
+  color: $active-color;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.l-title {
+  color: $default-color;
+  font-family: 'Source Sans Pro Bold';
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.s-title {
+  color: $default-color;
+  font-family: 'Source Sans Pro Light';
+  text-align: center;
+  font-size: 23px;
+  margin-top: 3px;
+}

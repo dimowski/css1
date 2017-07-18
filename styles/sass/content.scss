@@ -1,0 +1,54 @@
+//================== MAIN CONTENT SECTION ===========
+.main-content {
+  color: $default-color;
+}
+
+.main-content-item {
+  float: left;
+  width: 24%;
+  text-align: center;
+  i {
+    color: $active-color;
+    margin-top: 20px;
+  }
+  h3 {
+    font-family: 'Source Sans Pro Bold';
+    font-size: 20px;
+    margin-top: 25px;
+  }
+  p {
+    font-family: 'Source Sans Pro Regular';
+    width: 70%;
+    margin: 20px 15%;
+    color: $main-text-color;
+    font-size: 14px;
+    line-height: 140%;
+  }
+  a {
+    background: $default-color;
+    color: #fff;
+    display: block;
+    width: 70px;
+    height: 16px;
+    margin: 25px auto 40px;
+    padding: 8px 0;
+    text-decoration: none;
+    font-family: 'Source Sans Pro Black';
+    font-size: 15px;
+    border-radius: 4px;
+  }
+}
+
+.splitted {
+  border-left: 1px solid $content-splitter;
+}
+
+.main-content-list {
+  background: $main-content-background;
+  margin-top: 20px;
+  &:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}

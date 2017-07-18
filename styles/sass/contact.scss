@@ -1,0 +1,142 @@
+//================== CONTACTS SECTION ==============
+.contact {
+  background: $default-color;
+}
+
+.l2-title {
+  padding-top: 30px;
+  color: #fff;
+  font-family: 'Source Sans Pro Bold';
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.s2-title {
+  color: #fff;
+  font-family: 'Source Sans Pro Light';
+  text-align: center;
+  font-size: 23px;
+  margin-top: 3px;
+}
+
+.newsletter {
+  color: #fff;
+  width: 50%;
+  float: left;
+  margin-top: 60px;
+  i {
+    margin-right: 20px;
+    float: left;
+    font-size: 40px;
+  }
+  h3 {
+    font-family: 'Source Sans Pro Bold';
+    margin: 4px 0;
+  }
+  p {
+    font-family: 'Source Sans Pro Regular';
+  }
+}
+
+.inp-group {
+  margin: 25px 0;
+  input {
+    width: 450px;
+    height: 35px;
+    background: $default-dark-color;
+    float: left;
+    border: 0;
+    border-radius: 6px;
+    font-size: 20px;
+    color: #fff;
+  }
+  a {
+    background: $default-dark-color;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Source Sans Pro Bold';
+    font-size: 16px;
+    line-height: 130%;
+    border-radius: 6px;
+    width: 100px;
+    height: 30px;
+    float: right;
+    padding: 8px 0 0;
+    margin-right: 25px;
+  }
+}
+
+.f-twitter {
+  width: 50%;
+  background: $default-dark-color;
+  color: #fff;
+  float: right;
+  margin-top: 60px;
+  border-radius: 6px;
+  i {
+    float: left;
+    margin: 20px;
+  }
+  p {
+    margin: 23px;
+    font-family: 'Source Sans Pro Regular';
+    color: #b5c7c9;
+    line-height: 120%;
+  }
+  a {
+    color: #fff;
+  }
+}
+
+.subscribe:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.social {
+  margin: 50px 0 0;
+  background: #fff;
+  li {
+    width: 33%;
+    float: left;
+    margin: 30px 0;
+    color: $default-color;
+    h3 {
+      font-family: 'Source Sans Pro Bold';
+      margin-top: 15px;
+      line-height: 150%;
+    }
+    a {
+      text-align: center;
+      text-decoration: none;
+      font-family: 'Source Sans Pro Bold';
+      line-height: 70px;
+      font-size: 35px;
+      color: #fff;
+      background: $active-color;
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      float: left;
+      margin-right: 20px;
+    }
+  }
+  &:after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+}
+
+.copyright {
+  font-family: 'Source Sans Pro Regular';
+  color: #fff;
+  text-align: center;
+  height: 50px;
+  p {
+    margin-top: 35px;
+  }
+}

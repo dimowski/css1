@@ -1,0 +1,38 @@
+//================== PORTFOLIO SECTION ==============
+.arrows {
+  background: #fff;
+  padding: 0 15px;
+  i {
+    color: $active-color;
+    font-size: 20px;
+    margin: 0 3px;
+  }
+}
+
+.hr-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto 30px;
+  &:after, &:before {
+    background: $content-splitter;
+    height: 1px;
+    flex: 1;
+    content: '';
+  }
+}
+
+.btn-active {
+  background: $active-color;
+  color: #fff;
+  display: block;
+  width: 150px;
+  height: 29px;
+  margin: 35px auto 60px;
+  padding: 13px 0 0;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Source Sans Pro Bold';
+  font-size: 16px;
+  border-radius: 8px;
+}

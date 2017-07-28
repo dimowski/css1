@@ -24,19 +24,6 @@
     font-size: 14px;
     line-height: 140%;
   }
-  a {
-    background: $default-color;
-    color: #fff;
-    display: block;
-    width: 70px;
-    height: 16px;
-    margin: 25px auto 40px;
-    padding: 8px 0;
-    text-decoration: none;
-    font-family: 'Source Sans Pro Black';
-    font-size: 15px;
-    border-radius: 4px;
-  }
 }
 
 .splitted {
@@ -46,9 +33,5 @@
 .main-content-list {
   background: $main-content-background;
   margin-top: 20px;
-  &:after {
-    content: "";
-    display: block;
-    clear: both;
-  }
+  @extend .clearfix;
 }

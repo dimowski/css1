@@ -1,36 +1,32 @@
 //================== CUSTOMERS SECTION ==============
-.customers-list {
+.customers {
   color: $default-color;
   margin-top: 50px;
   text-align: center;
-  img {
+  &--photo {
     float: left;
     margin: 0 20px 30px 0;
   }
-  li {
+  &--item {
     float: left;
     width: 50%;
   }
-  h3 {
+  &--title {
     font-family: 'Source Sans Pro Bold';
     margin-bottom: 15px;
     text-align: left;
     font-size: 22px;
   }
-  p {
+  &--desc {
     font-family: 'Source Sans Pro Regular';
     text-align: left;
     font-size: 15px;
     line-height: 150%;
     color: #959494;
   }
-  a {
+  &--link {
     color: $active-color;
     text-decoration: none;
   }
-  &:after {
-    content: "";
-    display: block;
-    clear: both;
-  }
+  @extend .clearfix;
 }

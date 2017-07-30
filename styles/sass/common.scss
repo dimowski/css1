@@ -21,7 +21,7 @@ body {
   color: $default-color;
   font-family: 'Source Sans Pro Bold';
   text-align: center;
-  font-size: 30px;
+  font-size: 33px;
   margin-top: 20px;
   &--white {
     color: #fff;
@@ -67,8 +67,49 @@ body {
   border-radius: 8px;
 }
 
+.button-dark {
+  background: $default-dark-color;
+  font-family: 'Source Sans Pro Bold';
+  line-height: 130%;
+  border-radius: 6px;
+  width: 100px;
+  height: 30px;
+  padding: 8px 0 0;
+}
+
+.inp {
+  display: table-cell;
+  width: 100%;
+  height: 35px;
+  background: $default-dark-color;
+  border: 0;
+  border-radius: 6px;
+  font-size: 20px;
+  color: #fff;
+  width: 100%;
+}
+
+.hr-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto 30px;
+  &:after, &:before {
+    display: block;
+    background: $content-splitter;
+    height: 1px;
+    flex: 1;
+    content: '';
+  }
+  &--contacts {
+    &:after, &:before {
+      background: $default-dark-color;
+    }
+  }
+}
+
 .clearfix {
-    &:after {
+  &:after {
     content: "";
     display: block;
     clear: both;

@@ -3,20 +3,30 @@
   color: $default-color;
 }
 
-.main-content-item {
-  float: left;
-  width: 24%;
-  text-align: center;
-  i {
+.splitted {
+  border-left: 1px solid $content-splitter;
+}
+
+.main-content {
+  background: $main-content-background;
+  margin-top: 20px;
+  @extend .clearfix;
+  &--item {
     color: $active-color;
+    float: left;
+    width: 24%;
+    text-align: center;
+  }
+  &--group {
     margin-top: 20px;
   }
-  h3 {
+  &--title {
     font-family: 'Source Sans Pro Bold';
     font-size: 20px;
     margin-top: 25px;
+    color: $default-color;
   }
-  p {
+  &--text {
     font-family: 'Source Sans Pro Regular';
     width: 70%;
     margin: 20px 15%;
@@ -24,14 +34,4 @@
     font-size: 14px;
     line-height: 140%;
   }
-}
-
-.splitted {
-  border-left: 1px solid $content-splitter;
-}
-
-.main-content-list {
-  background: $main-content-background;
-  margin-top: 20px;
-  @extend .clearfix;
 }

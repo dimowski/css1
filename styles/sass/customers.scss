@@ -3,13 +3,13 @@
   color: $default-color;
   margin-top: 50px;
   text-align: center;
-  &--photo {
-    float: left;
-    margin: 0 20px 30px 0;
-  }
   &--item {
     float: left;
     width: 50%;
+  }
+  &--photo {
+    float: left;
+    margin: 0 20px 30px 0;
   }
   &--title {
     font-family: 'Source Sans Pro Bold';
